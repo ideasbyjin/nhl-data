@@ -1,7 +1,9 @@
-# nhl-data
+# nhl-data 0.1
 A Python API client to get data from the NHL.
 
 ## Example run
-python main.py get-player-stats --id 8471214 --season 20182019 ovechkin.jsonl
+#### Get data for Ovechkin in the 2018-2019 season
+`python main.py get-player-stats --id 8471214 --season 20182019 ovechkin.jsonl`
 
-python main.py get-player-list --season 20192020 
+#### Get the player list for all teams in the current season
+`python main.py get-player-list playerlist.jsonl` 
